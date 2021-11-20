@@ -5,7 +5,7 @@ This project will be mainly focused on defining infrastructure in the AWS enviro
 Download Terraform from Google. (Just a simple google search)
 Run terraform --version
 The entire Terraform flow:
-terraform init
-terraform plan
-terraform apply or terraform apply -auto-approve
+terraform init,
+terraform plan,
+terraform apply or terraform apply -auto-approve,
 terraform destroy
