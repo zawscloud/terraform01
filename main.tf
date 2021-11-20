@@ -6,6 +6,7 @@ provider "aws" {
 resource "aws_instance" "webserver01" { 
     ami = "ami-087c17d1fe0178315" 
     instance_type = "t2.micro"
+    count = 5
 }
 # This is to create an S3 Bucket
 resource "aws_s3_bucket" "mys3bucket"
